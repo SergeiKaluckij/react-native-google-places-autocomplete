@@ -780,14 +780,14 @@ export const GooglePlacesAutocomplete = forwardRef((props, ref) => {
                   }
                 : _onFocus
             }
-            onBlur={
-              onBlur
-                ? () => {
-                    _onBlur();
-                    onBlur();
-                  }
-                : _onBlur
-            }
+//             onBlur={
+//               onBlur
+//                 ? () => {
+//                     _onBlur();
+//                     onBlur();
+//                   }
+//                 : _onBlur
+//             }
             clearButtonMode={clearButtonMode || 'while-editing'}
             onChangeText={_handleChangeText}
             {...userProps}
